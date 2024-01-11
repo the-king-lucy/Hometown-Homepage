@@ -1,0 +1,109 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+/**
+
+
+*/
+#headerimg {
+    margin: 0;
+}
+
+.HeaderText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-color: #94D8F2;
+    padding: 10px 10px;
+    margin: 0;
+    border-radius: 20px;
+    
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.activityheader {
+    display: block;
+    text-align: center;
+    width: 50%;
+    padding: 0.5px 1px;
+    background: #94D8F2 50%;
+    margin: 0 auto;
+    color: black;
+    border-radius: 20px;
+    
+}
+
+
+/**
+.activitysection {
+    color: white;
+    background-color: #94D8F2;
+    padding: 10px 10px;
+    margin: 0;
+    text-shadow: 1px 1px #1D3557;
+    border-radius: 20px;
+}
+*/
+
+#activitychoices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+}
+
+#activityone, #activitytwo, #activitythree {
+    background: #94D8F2 10%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+    
+
+#lucyimage, #imageone, #imagetwo, #imagethree {
+    border-radius: 50%;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.normal {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+#guidesection {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background: #94D8F2;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+}
+
+#lucyimage {
+    border-color: black;
+    border-width: 2px;
+}
